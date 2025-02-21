@@ -1,0 +1,131 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(/fonts/Norse-Bold.otf);
+}   
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex; 
+    flex-direction: row; 
+    width: 100vw;
+    height: 100vh;
+}
+
+.left {
+    background-image: url("images/halie-west-25xggax4bSA-unsplash.jpg");
+    width: 35vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right {
+    display: flex;
+    width: 65vw;
+    flex-direction: column;
+    background-color: #fafafa;
+}
+
+.first {
+    height: 33vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 4%;
+    margin-bottom: 5%;
+}
+
+
+.second {
+    height: 33vh;
+    background-color: white;
+    box-shadow: 5px 5px #E5E7EB;
+}
+
+#header-second {
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+label {
+    font-size: 15px;
+    color: rgb(100, 100, 100);
+}
+
+
+.form-main {
+    display: flex;
+    flex-direction: row;    
+    width: 60%;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 200px;
+    border: 1px solid #E5E7EB;
+    height: 20px;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 1px solid blue;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.third > button {
+    background-color: #596D48;
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 13px 20px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 3px 3px #E5E7EB;
+}
+
+.third > p {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.login {
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.background {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-top: 200px;
+    background-color: rgb(0, 0, 0,0.6);
+    font-family: Norse-Bold,sans-serif;
+    font-size: 50px;
+    align-items: center;
+}
+
+.background > h1 {
+    margin-top: 30px;
+}
